@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+$font-stack: Helvetica, sans-serif;
+$windsor: #520e6f;
+$bonjour: #f4f1f3;
+$pgold: #bb8600;
+$shark: #28282f;
+
+.color2 {
+  color: #a19ca3;
+}
+
+body {
+  color: $shark;
+  background-color: $bonjour;
+}
+
+h2 {
+  color: $pgold;
+  a{color: $pgold}
+}
