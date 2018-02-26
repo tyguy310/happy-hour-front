@@ -1,14 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
-.color2 {
-  color: #a19ca3; }
-
 body {
   color: #28282f;
-  background-color: #f4f1f3; }
+  background-color: #f4f1f3;
+  font-family: helvetica, sans-serif;
+  font-size: 1em; }
+
+.main-header {
+  font-family: "Fontdiner Swanky", cursive; }
 
 h2 {
-  color: #bb8600; }
+  color: #520e6f; }
   h2 a {
     color: #bb8600; }
+
+.color2 {
+  color: #a19ca3; }
 
 /*# sourceMappingURL=styles.css.map */
