@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 $font-stack: helvetica, sans-serif;
-$font-brand: 'Fontdiner Swanky', cursive;
+$font-logo: 'Fontdiner Swanky', cursive;
 $windsor: #520e6f;
 $bonjour: #f4f1f3;
 $pgold: #bb8600;
@@ -11,6 +11,7 @@ $shark: #28282f;
 body {
   color: $shark;
   background-color: $bonjour;
+  margin: 0;
   font: {
     family: $font-stack;
     size: 1em;
@@ -18,7 +19,7 @@ body {
 }
 
 .main-header {
-  font-family: $font-brand;
+  font-family: $font-logo;
 }
 h2 {
   color: $windsor;
