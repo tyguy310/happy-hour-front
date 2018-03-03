@@ -9,11 +9,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './not-found.component';
 
 import { environment } from '../environments/environment';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
