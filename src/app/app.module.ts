@@ -1,21 +1,29 @@
 import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
-import { PageNotFoundComponent } from './not-found.component';
+import { AuthService } from './auth/auth.service';
 
 import { environment } from '../environments/environment';
+
+import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
+import { HeaderComponent } from './layout/header/header.component';
+import { FooterComponent } from './layout/footer/footer.component';
+import { CallbackComponent } from './pages/callback/callback.component';
+import { PageNotFoundComponent } from './not-found.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     PageNotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    CallbackComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +31,8 @@ import { HomeComponent } from './pages/home/home.component';
     AppRoutingModule
   ],
   providers: [
-    Title
+    Title,
+    AuthService
   ],
   bootstrap: [AppComponent]
 })

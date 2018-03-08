@@ -1,6 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@charset 'utf-8';
 
-//Partials
+// partials
+@import
+  'layout/variables',
+  'layout/responsive',
+  'reset.demo';
 
 // Global
 @import 'base'

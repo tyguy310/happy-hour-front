@@ -20,8 +20,20 @@
       "prefix": "app",
       "serviceWorker": true,
       "styles": [
-        "assets/scss/styles.css"
+        "assets/scss/styles.scss"
       ],
+      "stylePreprocessorOptions": {
+            "includePaths": [
+              ".",
+              "./assets/scss",
+              "./assets/scss/abstracts",
+              "./assets/scss/base",
+              "./assets/scss/components",
+              "./assets/scss/pages",
+              "./assets/scss/layout",
+              "./assets/scss/vendors"
+            ]
+        },
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
